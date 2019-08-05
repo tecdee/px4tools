@@ -68,6 +68,7 @@ A log analysis toolbox for the [PX4 autopilot](http://px4.io/) written in python
 	git checkout tdi_plot_fix
 	python setup.py install
 	```
+	This step is no Longer required for pandas 0.20 release because [this fix has been patched to the 0.20 release](https://github.com/dronecrew/px4tools/issues/22#issuecomment-304687558). So simply use pandas ver=0.20.
 
 ### Using Anaconda (Recommended)
 
